@@ -335,3 +335,19 @@ footer a {
         font-size: 12px;
     }
 }
+
+@media (max-width:320px) {
+    .navbar-items li {        
+        font-size: 8.5px;
+        margin-left: 2px;
+    }
+    .navbar-container {
+        padding: 0 1rem;
+    }
+    .serchdomain-container input[type="submit"] {
+        font-size: 10px;
+    }
+    .plans-container {
+        padding: 2.5rem;
+    }
+}
